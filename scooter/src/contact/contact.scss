@@ -1,0 +1,45 @@
+.contact {
+    .icon {
+        color: rgb(95, 102, 97);
+        font-size: 20px;
+    }
+
+    .contact-photo {
+        border-radius: 50%;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .auto-margin {
+        margin: auto;
+    }
+    
+    .why {
+        max-width: 700px;
+        margin-top: 10px;
+        padding: 30px;
+    }
+    
+    .text-left {
+        text-align: left;
+    }
+    
+    .advantage {
+        text-align: left;
+    }
+    
+    .advantage-row {
+        display: flex;
+        justify-content: space-between  ;
+    }
+    
+    .advantage-row p {
+        font-size: 16px;
+    }   
+
+    .body {
+        margin-top: 30px;
+    }
+}
