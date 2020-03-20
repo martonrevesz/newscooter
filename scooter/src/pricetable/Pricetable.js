@@ -8,7 +8,7 @@ const Pricetable = (props) => {
     <tbody>
         <tr>
         <td>1 nap</td>
-        <td>10000 Ft</td>
+        <td>9000 Ft</td>
         </tr>
         <tr>
         <td>1 hét</td>
