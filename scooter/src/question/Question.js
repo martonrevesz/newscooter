@@ -12,7 +12,7 @@ const Question = (props) => {
   return (  
     <div className="question">
       <div className="advantage-row" onClick={toggle}>
-        <p>{question}</p><span className="icon"><i class="fas fa-angle-down"></i></span>
+        <span className="icon"><i class="fas fa-angle-down"></i></span><p>{question}</p>
       </div>
       <Collapse isOpen={isOpen}>
         <Card>
