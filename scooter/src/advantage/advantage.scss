@@ -1,0 +1,27 @@
+.advantage {
+    text-align: left;
+
+    .icon {
+        color: rgb(100, 237, 26);
+        font-size: 20px;
+    }
+    .card {
+        background-color: rgb(240, 240, 240);
+        border-radius: 10px;
+        width: 100%;
+        border: none;
+        padding: 15px;
+        padding-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .detail {
+        font-size: 0.85rem;
+        margin-bottom: 0;
+    }
+}

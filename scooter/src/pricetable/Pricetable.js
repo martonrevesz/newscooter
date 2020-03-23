@@ -8,11 +8,11 @@ const Pricetable = (props) => {
     <tbody>
         <tr>
         <td>1 nap</td>
-        <td>9000 Ft</td>
+        <td>3000 Ft</td>
         </tr>
         <tr>
         <td>1 hét</td>
-        <td>50000 Ft</td>
+        <td>14000 Ft</td>
         </tr>
         <tr>
         <td>Hosszabb távú vagy rendszeres bérlés esetén kérje el Önnek szóló egyedi ajánlatomat.</td>

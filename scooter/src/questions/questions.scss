@@ -1,7 +1,12 @@
-.scooters {
+.questions {
     .icon {
-        color: rgb(95, 102, 97);
+        color: rgb(100, 237, 26);
         font-size: 24px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
     }
     
     .flex {
@@ -14,7 +19,6 @@
     
     .why {
         max-width: 700px;
-        margin-top: 10px;
         padding: 30px;
     }
     
@@ -23,25 +27,15 @@
     }
     
     .advantage {
-        text-align: left;
+        padding-top: 50px;
     }
     
     .advantage-row {
         display: flex;
+        justify-content: space-between  ;
     }
     
-    .advantage-row p {
-        font-size: 16px;
+    .advantage p {
+        font-size: 18px;
     }   
-
-    .info-text {
-        margin-left: 10px;
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .dollar {
-        margin-right: 10px;
-    }
 }
