@@ -1,7 +1,8 @@
 .contact {
     .icon {
         color: rgb(95, 102, 97);
-        font-size: 20px;
+        font-size: 1.25rem;
+        margin-right: 3rem;
     }
 
     .contact-photo {
@@ -17,9 +18,9 @@
     }
     
     .why {
-        max-width: 800px;
-        margin-top: 10px;
-        padding: 30px;
+        max-width: 50rem;
+        margin-top: 0.625rem;
+        padding: 1.875rem;
     }
     
     .text-left {
@@ -32,14 +33,13 @@
     
     .advantage-row {
         display: flex;
-        justify-content: space-between  ;
     }
     
     .advantage-row p {
-        font-size: 16px;
+        font-size: 1rem;
     }   
 
     .body {
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
 }

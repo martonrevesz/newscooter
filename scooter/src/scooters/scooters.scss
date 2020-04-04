@@ -1,7 +1,7 @@
 .scooters {
     .icon {
         color: rgb(95, 102, 97);
-        font-size: 24px;
+        font-size: 1.5rem;
     }
     
     .flex {
@@ -13,9 +13,9 @@
     }
     
     .why {
-        max-width: 800px;
-        margin-top: 10px;
-        padding: 30px;
+        max-width: 50rem;
+        margin-top: 0.625rem;
+        padding: 1.875rem;
     }
     
     .text-left {
@@ -31,17 +31,17 @@
     }
     
     .advantage-row p {
-        font-size: 16px;
+        font-size: 1rem;
     }   
 
     .info-text {
-        margin-left: 10px;
+        margin-left: .625rem;
         display: flex;
         justify-content: space-between;
         width: 100%;
     }
 
     .dollar {
-        margin-right: 10px;
+        margin-right: .625rem;
     }
 }

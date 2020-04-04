@@ -10,10 +10,10 @@ class Home extends React.Component {
               <div className="auto-margin  why">
                   <h1 className="text-left">Miért elektromos robogó?</h1>
                   <p className="text-left">Elektromos robogók rövid és hosszútávú bérbeadásával foglalkozom Budapesten. 
-                    Hiszek abban, hogy az elektromos robogó bérlés a nagyvárosban kényelmes és praktikus alternatíva lehet az Ön számára akár alkalmilag, akár rendszeres munkavégzéshez. </p>
+                    Hiszek abban, hogy az villanyrobogó bérlés a nagyvárosban kényelmes és praktikus alternatíva lehet az Ön számára akár alkalmilag, akár rendszeres munkavégzéshez. </p>
                   <Row>
                     <Col md="6">
-                      <img  class="home-image" src={logo} alt="scooter"/>
+                      <img  class="home-image" src={logo} alt="Fehér Niu elektromos motor"/>
                     </Col>
                     <Col md="6" className="advantage">
                       <Advantage title="Minimális üzemeltetési költség" detail="Míg egy átlagos kétütemű robogó 100 km-en 4 liter benzint és 1 deci olajat fogyaszt nagyjábol 1600ft üzemeltetési költséggel, addig egy villanyrobogó 3kWh áramot fogyaszt, ami mindossze 114 ft költséget jelent."/>

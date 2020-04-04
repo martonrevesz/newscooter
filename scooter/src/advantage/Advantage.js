@@ -1,6 +1,5 @@
 import React from 'react';
 import './advantage.scss';
-import { Col, Row } from "reactstrap";
 
 class Advantage extends React.Component {
     render() {

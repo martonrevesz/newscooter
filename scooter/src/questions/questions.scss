@@ -1,12 +1,12 @@
 .questions {
     .icon {
         color: rgb(100, 237, 26);
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     h2 {
         font-size: 2rem;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
     }
     
     .flex {
@@ -18,8 +18,8 @@
     }
     
     .why {
-        max-width: 800px;
-        padding: 30px;
+        max-width: 50rem;
+        padding: 1.875rem;
     }
     
     .text-left {
@@ -27,10 +27,10 @@
     }
     
     .advantage {
-        padding-top: 50px;
+        padding-top: 3.125rem;
     }
     
     .advantage p {
-        font-size: 18px;
+        font-size: 1.125rem;
     }   
 }

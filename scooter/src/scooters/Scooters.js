@@ -1,7 +1,7 @@
 import React from 'react';
 import scooter from './scooter.jpg'; 
 import './scooters.scss';
-import { Col, Row, Table } from "reactstrap";
+import { Col, Row } from "reactstrap";
 import Pricetable from '../pricetable/Pricetable.js';
 
 class Scooters extends React.Component {
@@ -23,7 +23,7 @@ class Scooters extends React.Component {
                             </div>
                         </Col>
                         <Col md="6">
-                            <img  src={scooter} width="300" alt="scooter"/>
+                            <img  src={scooter} width="300" alt="Fehér Niu elektromos motor"/>
                         </Col>
                         </Row>
                         <Pricetable />
