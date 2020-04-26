@@ -1,37 +1,36 @@
 .home {
+  h1 {
+    font-size: 2rem;
+  }
 
-    h1 {
-        font-size: 2rem;
-    }
-    
-    .flex {
-        display: flex;
-    }
-    
-    .auto-margin {
-        margin: auto;
-    }
-    
-    .why {
-        max-width: 50rem;
-        margin-top: 3.13rem;
-        padding: 1.875rem;
-    }
-    
-    .text-left {
-        text-align: left;
-    }  
+  .flex {
+    display: flex;
+  }
 
+  .auto-margin {
+    margin: auto;
+  }
+
+  .why {
+    max-width: 50rem;
+    margin-top: 3.13rem;
+    padding: 1.875rem;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .home-image {
+    width: 18.75rem;
+    height: 18.75rem;
+  }
+
+  @media screen and (min-width: 48rem) {
     .home-image {
-        width: 18.75rem;
-        height: 18.75rem;
+      margin-top: 3.75rem;
+      width: 22rem;
+      height: 22rem;
     }
-
-    @media screen and (min-width: 48rem) {
-        .home-image {
-          margin-top: 3.75rem;
-          width: 22rem;
-          height: 22rem;
-        }
-      }
+  }
 }

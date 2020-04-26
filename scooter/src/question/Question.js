@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Collapse, CardBody, Card } from 'reactstrap';
-import './question.scss';
+import React, { useState } from "react";
+import { Collapse, CardBody, Card } from "reactstrap";
+import "./question.scss";
 
 const Question = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,20 +9,21 @@ const Question = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
-  return (  
+  return (
     <div className="question">
       <div className="advantage-row" onClick={toggle}>
-        <span className="icon"><i class="fas fa-angle-down"></i></span><p>{question}</p>
+        <span className="icon">
+          <i class="fas fa-angle-down"></i>
+        </span>
+        <p>{question}</p>
       </div>
       <Collapse isOpen={isOpen}>
         <Card>
-          <CardBody>
-          {answer}
-          </CardBody>
+          <CardBody>{answer}</CardBody>
         </Card>
       </Collapse>
     </div>
   );
-}
+};
 
 export default Question;

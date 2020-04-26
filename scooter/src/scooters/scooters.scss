@@ -1,47 +1,47 @@
 .scooters {
-    .icon {
-        color: rgb(95, 102, 97);
-        font-size: 1.5rem;
-    }
-    
-    .flex {
-        display: flex;
-    }
-    
-    .auto-margin {
-        margin: auto;
-    }
-    
-    .why {
-        max-width: 50rem;
-        margin-top: 0.625rem;
-        padding: 1.875rem;
-    }
-    
-    .text-left {
-        text-align: left;
-    }
-    
-    .advantage {
-        text-align: left;
-    }
-    
-    .advantage-row {
-        display: flex;
-    }
-    
-    .advantage-row p {
-        font-size: 1rem;
-    }   
+  .icon {
+    color: rgb(95, 102, 97);
+    font-size: 1.5rem;
+  }
 
-    .info-text {
-        margin-left: .625rem;
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
+  .flex {
+    display: flex;
+  }
 
-    .dollar {
-        margin-right: .625rem;
-    }
+  .auto-margin {
+    margin: auto;
+  }
+
+  .why {
+    max-width: 50rem;
+    margin-top: 0.625rem;
+    padding: 1.875rem;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .advantage {
+    text-align: left;
+  }
+
+  .advantage-row {
+    display: flex;
+  }
+
+  .advantage-row p {
+    font-size: 1rem;
+  }
+
+  .info-text {
+    margin-left: 0.625rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .dollar {
+    margin-right: 0.625rem;
+  }
 }

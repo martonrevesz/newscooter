@@ -1,44 +1,44 @@
 .question {
-    margin-top: 0.31rem;
+  margin-top: 0.31rem;
+  text-align: left;
+
+  .icon {
+    color: rgb(80, 80, 80);
+    font-size: 1.5rem;
+    margin-right: 0.625rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .auto-margin {
+    margin: auto;
+  }
+
+  .why {
+    max-width: 50rem;
+    margin-top: 3.125rem;
+    padding: 1.875rem;
+  }
+
+  .text-left {
     text-align: left;
+  }
 
-    .icon {
-        color: rgb(80, 80, 80);
-        font-size: 1.5rem;
-        margin-right: 0.625rem;
-    }
+  .advantage {
+    padding-top: 3.125rem;
+  }
 
-    h1 {
-        font-size: 2rem;
-    }
-    
-    .flex {
-        display: flex;
-    }
-    
-    .auto-margin {
-        margin: auto;
-    }
-    
-    .why {
-        max-width: 50rem;
-        margin-top: 3.125rem;
-        padding: 1.875rem;
-    }
-    
-    .text-left {
-        text-align: left;
-    }
-    
-    .advantage {
-        padding-top: 3.125rem;
-    }
-    
-    .advantage-row {
-        display: flex;
-    }
-    
-    .advantage p {
-        font-size: 1.125rem;
-    }   
+  .advantage-row {
+    display: flex;
+  }
+
+  .advantage p {
+    font-size: 1.125rem;
+  }
 }
