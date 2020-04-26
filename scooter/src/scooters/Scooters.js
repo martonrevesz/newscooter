@@ -13,7 +13,7 @@ class Scooters extends React.Component {
           <h2 className="text-left">Robogók és árak</h2>
           <Row>
             <Col md="6" className="advantage">
-              <p>Niu NQi Lite elektromos robogó:</p>
+              <p className="type">Niu NQi Lite elektromos robogó:</p>
               <div className="advantage-row">
                 <span className="icon">
                   <i class="fas fa-tachometer-alt"></i>
@@ -46,16 +46,17 @@ class Scooters extends React.Component {
               <img src={scooter} width="300" alt="Fehér Niu elektromos motor" />
             </Col>
           </Row>
+          <Pricetable day="3000" week="14000" />
           <Row>
             <Col md="6" className="advantage">
-              <p>Niu Ngt elektromos robogó:</p>
+              <p className="type">Niu Ngt elektromos robogó:</p>
               <div className="advantage-row">
                 <span className="icon">
                   <i class="fas fa-tachometer-alt"></i>
                 </span>
                 <div className="info-text">
                   <p>Maximum sebesség:</p>
-                  <p> 50 km/h</p>
+                  <p> 75 km/h</p>
                 </div>
               </div>
               <div className="advantage-row">
@@ -64,7 +65,7 @@ class Scooters extends React.Component {
                 </span>
                 <div className="info-text">
                   <p>Hatótáv:</p>
-                  <p> 112 km</p>
+                  <p> 130 km</p>
                 </div>
               </div>
               <div className="advantage-row">
@@ -80,12 +81,16 @@ class Scooters extends React.Component {
             <Col md="6">
               <img
                 src={scooter2}
-                width="280"
-                alt="Fehér Niu elektromos motor"
+                width="270"
+                alt="Fehér Niu Ngt elektromos motor"
               />
             </Col>
           </Row>
-          <Pricetable />
+          <Pricetable day="3500" week="17000" />
+          <div className="text-left">
+            Hosszabb távú vagy rendszeres bérlés esetén kérje el Önnek szóló
+            egyedi ajánlatomat.
+          </div>
         </div>
       </div>
     );

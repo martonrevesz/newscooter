@@ -1,26 +1,22 @@
-import React from 'react';
-import { Table } from 'reactstrap';
-import './pricetable.scss';
+import React from "react";
+import { Table } from "reactstrap";
+import "./pricetable.scss";
 
 const Pricetable = (props) => {
   return (
     <Table>
-    <tbody>
+      <tbody>
         <tr>
-        <td>1 nap</td>
-        <td>3000 Ft</td>
+          <td>1 nap</td>
+          <td>{props.day} Ft</td>
         </tr>
         <tr>
-        <td>1 hét</td>
-        <td>14000 Ft</td>
+          <td>1 hét</td>
+          <td>{props.week} Ft</td>
         </tr>
-        <tr>
-        <td>Hosszabb távú vagy rendszeres bérlés esetén kérje el Önnek szóló egyedi ajánlatomat.</td>
-        <td></td>
-        </tr>
-    </tbody>
+      </tbody>
     </Table>
   );
-}
+};
 
 export default Pricetable;
