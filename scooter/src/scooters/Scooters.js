@@ -1,6 +1,7 @@
 import React from "react";
 import scooter from "./scooter.jpg";
 import scooter2 from "./scooter2.jpg";
+import scooter3 from "./scooter3.jpg";
 import "./scooters.scss";
 import { Col, Row } from "reactstrap";
 import Pricetable from "../pricetable/Pricetable.js";
@@ -47,6 +48,46 @@ class Scooters extends React.Component {
             </Col>
           </Row>
           <Pricetable day="3000" week="14000" />
+          <Row>
+            <Col md="6" className="advantage">
+              <p className="type">Niu N-Sport elektromos robogó:</p>
+              <div className="advantage-row">
+                <span className="icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </span>
+                <div className="info-text">
+                  <p>Maximum sebesség:</p>
+                  <p> 60 km/h</p>
+                </div>
+              </div>
+              <div className="advantage-row">
+                <span className="icon">
+                  <i class="fas fa-dot-circle"></i>
+                </span>
+                <div className="info-text">
+                  <p>Hatótáv:</p>
+                  <p> 120 km</p>
+                </div>
+              </div>
+              <div className="advantage-row">
+                <span className="icon dollar">
+                  <i class="fas fa-dollar-sign"></i>
+                </span>
+                <div className="info-text">
+                  <p>Üzemeltetési költség:</p>
+                  <p> ~ 1 ft / km</p>
+                </div>
+              </div>
+            </Col>
+            <Col md="6">
+              <img
+                src={scooter3}
+                width="400"
+                alt="Fehér Niu elektromos motor"
+              />
+            </Col>
+          </Row>
+          <Pricetable day="3500" week="16000" />
           <Row>
             <Col md="6" className="advantage">
               <p className="type">Niu Ngt elektromos robogó:</p>

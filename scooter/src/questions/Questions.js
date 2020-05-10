@@ -10,7 +10,7 @@ class Questions extends React.Component {
           <h2 className="text-left">Kérdések és válaszok</h2>
           <Question
             question="Mennyi a motor hatótávolsága?"
-            answer="Mivel 2 elemmel van felszerelve, ezért összesen 112 km hatótávval rendelkezik. Viszont mivel egyszerre elég ha az egyik elem van a motorban, míg a másik tölthető, ezért naponta az elemeket cserelgétve gyakorlatilag korlátlan km megtételére képes."
+            answer="Az NQi Lite 110, az N-Sport 120, az Ngt 130 km hatótávval rendelkezik. Mivel az elemek külön tölthetőek, ezért cserélgetéssel és napközbeni töltéssel gyakorlatilag korlátlan km megtehető."
           ></Question>
           <Question
             question="Mennyit fogyaszt a motor?"

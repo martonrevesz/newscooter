@@ -15,7 +15,7 @@ const Question = (props) => {
         <span className="icon">
           <i class="fas fa-angle-down"></i>
         </span>
-        <p>{question}</p>
+        <p className="question-title">{question}</p>
       </div>
       <Collapse isOpen={isOpen}>
         <Card>
