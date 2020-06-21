@@ -20,7 +20,7 @@ class Contact extends React.Component {
                 <span className="icon">
                   <i class="fas fa-phone"></i>
                 </span>
-                <p>0670 433 38 48</p>
+                <p>0630 889 50 22</p>
               </div>
             </Col>
           </Row>

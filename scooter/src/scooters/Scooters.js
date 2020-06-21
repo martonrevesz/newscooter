@@ -88,46 +88,6 @@ class Scooters extends React.Component {
             </Col>
           </Row>
           <Pricetable day="3500" week="18000" />
-          <Row>
-            <Col md="6" className="advantage">
-              <p className="type">Niu Ngt elektromos robogó:</p>
-              <div className="advantage-row">
-                <span className="icon">
-                  <i class="fas fa-tachometer-alt"></i>
-                </span>
-                <div className="info-text">
-                  <p>Maximum sebesség:</p>
-                  <p> 75 km/h</p>
-                </div>
-              </div>
-              <div className="advantage-row">
-                <span className="icon">
-                  <i class="fas fa-dot-circle"></i>
-                </span>
-                <div className="info-text">
-                  <p>Hatótáv:</p>
-                  <p> 130 km</p>
-                </div>
-              </div>
-              <div className="advantage-row">
-                <span className="icon dollar">
-                  <i class="fas fa-dollar-sign"></i>
-                </span>
-                <div className="info-text">
-                  <p>Üzemeltetési költség:</p>
-                  <p> ~ 1 ft / km</p>
-                </div>
-              </div>
-            </Col>
-            <Col md="6">
-              <img
-                src={scooter2}
-                width="270"
-                alt="Fehér Niu Ngt elektromos motor"
-              />
-            </Col>
-          </Row>
-          <Pricetable day="3500" week="20000" />
           <div className="text-left">
             Hosszabb távú vagy rendszeres bérlés esetén kérje el Önnek szóló
             egyedi ajánlatomat.
