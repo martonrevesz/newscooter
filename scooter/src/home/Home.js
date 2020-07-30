@@ -27,7 +27,7 @@ class Home extends React.Component {
             <Col md="6" className="advantage">
               <Advantage
                 title="Minimális üzemeltetési költség"
-                detail="Míg egy átlagos kétütemű robogó 100 km-en 4 liter benzint és 1 deci olajat fogyaszt nagyjábol 1600ft üzemeltetési költséggel, addig egy villanyrobogó 3kWh áramot fogyaszt, ami mindossze 114 ft költséget jelent."
+                detail="Míg egy átlagos kétütemű robogó 100 km-en 4 liter benzint és 1 deci olajat fogyaszt nagyjábol 1800 ft üzemeltetési költséggel, addig egy villanyrobogó 3kWh áramot fogyaszt, ami mindossze 114 ft költséget jelent."
               />
               <Advantage
                 title="Megbízhatóság"

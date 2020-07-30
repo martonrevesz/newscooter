@@ -1,8 +1,6 @@
 import React from "react";
-import scooter from "./scooter.jpg";
-import scooter2 from "./scooter2.jpg";
-import scooter3 from "./scooter3.jpg";
-import scooterm from "./scooterm.jpg";
+import scooterm from "./scootermplus.jpg";
+import nqilite from "./nqi-lite.jpg";
 import "./scooters.scss";
 import { Col, Row } from "reactstrap";
 import Pricetable from "../pricetable/Pricetable.js";
@@ -22,7 +20,7 @@ class Scooters extends React.Component {
                 </span>
                 <div className="info-text">
                   <p>Maximum sebesség:</p>
-                  <p> 50 km/h</p>
+                  <p> 52 km/h</p>
                 </div>
               </div>
               <div className="advantage-row">
@@ -45,10 +43,10 @@ class Scooters extends React.Component {
               </div>
             </Col>
             <Col md="6">
-              <img src={scooter} width="300" alt="Fehér Niu elektromos motor" />
+              <img src={nqilite} width="280" alt="Fehér Niu elektromos motor" />
             </Col>
           </Row>
-          <Pricetable day="3000" week="16000" />
+          <Pricetable day="3500" week="17000" />
           {/* <Row>
             <Col md="6" className="advantage">
               <p className="type">Niu N-Sport elektromos robogó:</p>
@@ -123,12 +121,12 @@ class Scooters extends React.Component {
             <Col md="6">
               <img
                 src={scooterm}
-                width="300"
+                width="280"
                 alt="Fehér Niu elektromos motor"
               />
             </Col>
           </Row>
-          <Pricetable day="3000" week="16000" />
+          <Pricetable day="3500" week="16000" />
           <div className="text-left">
             Hosszabb távú vagy rendszeres bérlés esetén kérje el Önnek szóló
             egyedi ajánlatomat.
