@@ -96,7 +96,7 @@ class Scooters extends React.Component {
                 </span>
                 <div className="info-text">
                   <p>Maximum sebesség:</p>
-                  <p> 52 km/h</p>
+                  <p> 50 km/h</p>
                 </div>
               </div>
               <div className="advantage-row">
