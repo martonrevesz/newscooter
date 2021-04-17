@@ -48,4 +48,16 @@
   .type {
     font-size: 1.1rem;
   }
+
+  .licence-warning {
+    font-size: 12px;
+    border: 1px solid rgb(235, 98, 52);
+    border-radius: 8px;
+    color: rgb(235, 98, 52);
+    padding: 7px;
+  }
+
+  .licence-warning-container {
+    margin-bottom: 10px;
+  }
 }

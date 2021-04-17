@@ -1,5 +1,6 @@
 import React from "react";
 import scooterm from "./scootermplus.jpg";
+import scooter4 from "./scooter4.jpg";
 import nqilite from "./nqi-lite.jpg";
 import "./scooters.scss";
 import { Col, Row } from "reactstrap";
@@ -47,46 +48,6 @@ class Scooters extends React.Component {
             </Col>
           </Row>
           <Pricetable day="3500" week="17000" />
-          {/* <Row>
-            <Col md="6" className="advantage">
-              <p className="type">Niu N-Sport elektromos robogó:</p>
-              <div className="advantage-row">
-                <span className="icon">
-                  <i class="fas fa-tachometer-alt"></i>
-                </span>
-                <div className="info-text">
-                  <p>Maximum sebesség:</p>
-                  <p> 60 km/h</p>
-                </div>
-              </div>
-              <div className="advantage-row">
-                <span className="icon">
-                  <i class="fas fa-dot-circle"></i>
-                </span>
-                <div className="info-text">
-                  <p>Hatótáv:</p>
-                  <p> 120 km</p>
-                </div>
-              </div>
-              <div className="advantage-row">
-                <span className="icon dollar">
-                  <i class="fas fa-dollar-sign"></i>
-                </span>
-                <div className="info-text">
-                  <p>Üzemeltetési költség:</p>
-                  <p> ~ 1 ft / km</p>
-                </div>
-              </div>
-            </Col>
-            <Col md="6">
-              <img
-                src={scooter3}
-                width="400"
-                alt="Fehér Niu elektromos motor"
-              />
-            </Col>
-          </Row>
-          <Pricetable day="3500" week="18000" /> */}
           <Row>
             <Col md="6" className="advantage">
               <p className="type">Niu M+ elektromos robogó:</p>
@@ -127,6 +88,51 @@ class Scooters extends React.Component {
             </Col>
           </Row>
           <Pricetable day="3500" week="16000" />
+          <Row>
+            <Col md="6" className="advantage">
+              <p className="type">Niu Ngt elektromos robogó:</p>
+              <div className="licence-warning-container">
+                <span className="licence-warning">
+                  <span>A1-es vagy B125-ös jogosítvánnyal</span>
+                </span>
+              </div>
+              <div className="advantage-row">
+                <span className="icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </span>
+                <div className="info-text">
+                  <p>Maximum sebesség:</p>
+                  <p> 80 km/h</p>
+                </div>
+              </div>
+              <div className="advantage-row">
+                <span className="icon">
+                  <i class="fas fa-dot-circle"></i>
+                </span>
+                <div className="info-text">
+                  <p>Hatótáv:</p>
+                  <p> 100-150 km</p>
+                </div>
+              </div>
+              <div className="advantage-row">
+                <span className="icon dollar">
+                  <i class="fas fa-dollar-sign"></i>
+                </span>
+                <div className="info-text">
+                  <p>Üzemeltetési költség:</p>
+                  <p> ~ 1 ft / km</p>
+                </div>
+              </div>
+            </Col>
+            <Col md="6">
+              <img
+                src={scooter4}
+                width="280"
+                alt="Fehér Niu elektromos motor"
+              />
+            </Col>
+          </Row>
+          <Pricetable day="4000" week="19000" />       
           <div className="text-left">
             Hosszabb távú vagy rendszeres bérlés esetén kérje el Önnek szóló
             egyedi ajánlatomat.

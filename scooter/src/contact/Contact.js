@@ -21,6 +21,7 @@ class Contact extends React.Component {
                   <i class="fas fa-phone"></i>
                 </span>
                 <p>0630 889 50 22</p>
+                {/* <p>0630 613 26 02</p> */}
               </div>
             </Col>
           </Row>
