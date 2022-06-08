@@ -14,7 +14,7 @@ class Scooters extends React.Component {
           <h2 className="text-left">Robogók és árak</h2>
           <Row>
             <Col md="6" className="advantage">
-              <p className="type">Niu NQi Lite elektromos robogó:</p>
+              <p className="type">Niu NQi elektromos robogó:</p>
               <div className="advantage-row">
                 <span className="icon">
                   <i class="fas fa-tachometer-alt"></i>
@@ -29,10 +29,16 @@ class Scooters extends React.Component {
                   <i class="fas fa-dot-circle"></i>
                 </span>
                 <div className="info-text">
-                  <p>Hatótáv:</p>
-                  <p> 112 km</p>
-                </div>
+                  <p>Hatótáv 2 akkumulátorral:</p>
+                  <p> 110 km</p>
+                </div>               
               </div>
+              <div className="advantage-row">
+                <div className="info-text" style={{paddingLeft: "24px"}}>
+                  <p>Hatótáv 3 akkumulátorral:</p>
+                  <p> 165 km</p>
+                </div>               
+              </div>              
               <div className="advantage-row">
                 <span className="icon dollar">
                   <i class="fas fa-dollar-sign"></i>
@@ -47,7 +53,7 @@ class Scooters extends React.Component {
               <img src={nqilite} width="280" alt="Fehér Niu elektromos motor" />
             </Col>
           </Row>
-          <Pricetable day="3500" week="17000" />
+          <Pricetable day="9000" week1="14000" week="18000" week3="20000" month1="48000"/>
           <Row>
             <Col md="6" className="advantage">
               <p className="type">Niu M+ elektromos robogó:</p>
@@ -87,13 +93,13 @@ class Scooters extends React.Component {
               />
             </Col>
           </Row>
-          <Pricetable day="3500" week="16000" />
-          <Row>
+          <Pricetable day="9000" week="14000" />
+          {/* <Row>
             <Col md="6" className="advantage">
               <p className="type">Niu Ngt elektromos robogó:</p>
               <div className="licence-warning-container">
                 <span className="licence-warning">
-                  <span>A1-es vagy B125-ös jogosítvánnyal</span>
+                  <span>A-s vagy B125-ös jogosítvánnyal</span>
                 </span>
               </div>
               <div className="advantage-row">
@@ -132,7 +138,7 @@ class Scooters extends React.Component {
               />
             </Col>
           </Row>
-          <Pricetable day="4000" week="19000" />       
+          <Pricetable day="4000" week="19000" />        */}
           <div className="text-left">
             Hosszabb távú vagy rendszeres bérlés esetén kérje el Önnek szóló
             egyedi ajánlatomat.

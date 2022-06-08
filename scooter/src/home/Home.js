@@ -31,7 +31,7 @@ class Home extends React.Component {
               />
               <Advantage
                 title="Megbízhatóság"
-                detail="Motorjaink újak illetve az elektromos robogóknak minimális a szervízigénye, egyszerűsége folytán nem nagyon tud benne mi elromlani, így nincs többé lerobbant motor miatti időkiesés és bevételkiesés, cseremotorra való várakozás."
+                detail="Motorjaink újak illetve az elektromos robogóknak minimális a szervízigénye, egyszerűsége folytán nem nagyon tud benne mi elromlani, így nincs többé lerobbant motor miatti időkiesés és bevételkiesés, cseremotorra való várakozás. Minden motorunk a kategóriájában legjobb Heidenau négyévszakos gumival van felszerelve."
               />
               <Advantage
                 title="Kényelem"
