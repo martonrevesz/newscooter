@@ -6,10 +6,12 @@ const Pricetable = (props) => {
   return (
     <Table>
       <tbody>
+        {props.day &&
         <tr>
           <td>1 nap</td>
           <td>{props.day} Ft</td>
         </tr>
+        }
         {props.week1 && 
         <tr>
           <td>1 hét 1 akkumulátorral</td>
@@ -28,6 +30,11 @@ const Pricetable = (props) => {
         <tr>
           <td>1 hónap 3 akkumulátorral</td>
           <td>{props.month1} Ft</td>
+        </tr>}    
+        {props.month2 && 
+        <tr>
+          <td>1 hónap 2 akkumulátorral</td>
+          <td>{props.month2} Ft</td>
         </tr>}        
       </tbody>
     </Table>

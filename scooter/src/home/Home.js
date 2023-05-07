@@ -27,11 +27,11 @@ class Home extends React.Component {
             <Col md="6" className="advantage">
               <Advantage
                 title="Minimális üzemeltetési költség"
-                detail="Míg egy átlagos kétütemű robogó 100 km-en 4 liter benzint és 1 deci olajat fogyaszt nagyjábol 1800 ft üzemeltetési költséggel, addig egy villanyrobogó 3kWh áramot fogyaszt, ami mindossze 114 ft költséget jelent."
+                detail="Míg egy átlagos kétütemű robogó 100 km-en 4 liter benzint és 1 deci olajat fogyaszt nagyjábol 1800 ft üzemeltetési költséggel, addig egy villanyrobogó 3kWh áramot fogyaszt, ami mindossze 114 ft költséget jelent rezsicsökkentett, 210 ft-ot piaci áron."
               />
               <Advantage
                 title="Megbízhatóság"
-                detail="Motorjaink újak illetve az elektromos robogóknak minimális a szervízigénye, egyszerűsége folytán nem nagyon tud benne mi elromlani, így nincs többé lerobbant motor miatti időkiesés és bevételkiesés, cseremotorra való várakozás. Minden motorunk a kategóriájában legjobb Heidenau négyévszakos gumival van felszerelve."
+                detail="Elektromos robogóknak minimális a szervízigénye, egyszerűsége folytán nem nagyon tud benne mi elromlani, így nincs többé lerobbant motor miatti időkiesés és bevételkiesés, cseremotorra való várakozás. Minden motorunk a kategóriájában legjobb Heidenau négyévszakos gumival van felszerelve."
               />
               <Advantage
                 title="Kényelem"

@@ -53,7 +53,7 @@ class Scooters extends React.Component {
               <img src={nqilite} width="280" alt="Fehér Niu elektromos motor" />
             </Col>
           </Row>
-          <Pricetable day="9000" week1="14000" week="18000" week3="20000" month1="48000"/>
+          <Pricetable day="9000" week1="14000" week="17000" week3="19000" month1="48000"/>
           <Row>
             <Col md="6" className="advantage">
               <p className="type">Niu M+ elektromos robogó:</p>
@@ -94,7 +94,7 @@ class Scooters extends React.Component {
             </Col>
           </Row>
           <Pricetable day="9000" week="14000" />
-          {/* <Row>
+          <Row>
             <Col md="6" className="advantage">
               <p className="type">Niu Ngt elektromos robogó:</p>
               <div className="licence-warning-container">
@@ -138,7 +138,7 @@ class Scooters extends React.Component {
               />
             </Col>
           </Row>
-          <Pricetable day="4000" week="19000" />        */}
+          <Pricetable  week="24000" month2="75000"/>       
           <div className="text-left">
             Hosszabb távú vagy rendszeres bérlés esetén kérje el Önnek szóló
             egyedi ajánlatomat.
